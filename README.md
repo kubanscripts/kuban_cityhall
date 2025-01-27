@@ -14,4 +14,4 @@ Preview: [Click Here](https://youtu.be/krTMZYC3Hao)
 
 <br>
 
-[![thumbnail](https://media.discordapp.net/attachments/1330792646368825344/1331617694058942535/banner.png?ex=6792451e&is=6790f39e&hm=f9ab6ffc83a88268741b8b21369d8eff66a47172993c9bcb0ad40b15eac6a043&=&format=webp&quality=lossless&width=1193&height=671)](https://www.youtube.com/@kubanscripts)
+[![thumbnail](https://r2.fivemanage.com/XsqgP28FfY2PpHVl7sArP/images/banne2r.png)](https://www.youtube.com/@kubanscripts)
