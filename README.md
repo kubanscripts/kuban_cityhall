@@ -8,4 +8,4 @@ Discord: [Click Here](https://discord.com/invite/UzVbtKEzgN)
 <br>
 <br>
 
-[![thumbnail]()](https://www.youtube.com/@kubanscripts)
+[![thumbnail](https://r2.fivemanage.com/XsqgP28FfY2PpHVl7sArP/image/cityhall2.png)](https://www.youtube.com/@kubanscripts)
