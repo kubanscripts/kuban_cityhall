@@ -1,6 +1,8 @@
 local resourceName = 'kuban_cityhall'
 local currentVersion = GetResourceMetadata(resourceName, 'version', 0) 
 local currentName = GetCurrentResourceName()
+local EnableVersionChecker = true   -- Set to false to disable version checking
+local ShowAmazingMessage = true     -- Set to false to disable the amazing message
 
 if currentName == resourceName .. '-main' then
     print("^1[Warning]: Incorrect resource folder name detected.^0")
@@ -44,14 +46,15 @@ local function showAmazingMessage()
         print('^2██║  ██╗╚██████╔╝██████╔╝██║  ██║██║ ╚████║^0')
         print('^2╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝^0')
         print(' ')
+        print('^4[KUBAN CITYHALL]^0 Successfully Loaded! 🚀')
         print('^2Thank you for using Kuban scripts! Join our Discord for updates.^0')
     end)
 end
 
-if Config.VersionChecker then
+if EnableVersionChecker then
     checkVersion()
 end
 
-if Config.AmazingScripts then
+if ShowAmazingMessage then
     showAmazingMessage()
 end
