@@ -14,17 +14,27 @@ lua54 'yes'
 
 author 'KubanScripts'
 
-description 'City Hall Resource using ox_lib'
+description 'kuban_cityhall'
 
-shared_script {
-    '@ox_lib/init.lua',
+version '1.0.0'
+
+shared_scripts {
     'config.lua'
 }
 
-client_script 'client.lua'
+client_scripts {
+    'client.lua'
+}
 
 server_scripts {
     'version.lua',
     'server.lua'
 }
 
+ui_page 'ui/index.html'
+
+files {
+    'ui/index.html',
+    'ui/script.js',
+    'ui/style.css'
+}
