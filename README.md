@@ -1,17 +1,11 @@
 # kuban_cityhall
-## A ox_lib city hall resource which includes a License System, Select Job System, View Lawyers, View Police Command all for FiveM QBCore Servers 💭
+## A city hall resource which includes a Select Job System, View Lawyers, View Police all for FiveM Servers 💭
 
-- Supported frameworks: ESX, QBCore & Qbox 
-- Supports ox_target
+- Supported frameworks: QBCore & Qbox 
 
-Preview: [Click Here](https://youtu.be/krTMZYC3Hao)
- Discord: [Click Here](https://discord.com/invite/UzVbtKEzgN)
+Preview: [Click Here](https://www.youtube.com/watch?v=sfBlraPFgeM)
+Discord: [Click Here](https://discord.com/invite/UzVbtKEzgN)
+<br>
 <br>
 
-> Dependencies:
-> <br>
-> **[ox_lib](https://github.com/overextended/ox_lib)**
-
-<br>
-
-[![thumbnail](https://r2.fivemanage.com/XsqgP28FfY2PpHVl7sArP/images/banne2r.png)](https://www.youtube.com/@kubanscripts)
+[![thumbnail]()](https://www.youtube.com/@kubanscripts)
