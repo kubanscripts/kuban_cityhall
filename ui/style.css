@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cityhallUI {
+    display: none;
+    background: #181A1B;
+    padding: 20px;
+    border-radius: 12px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #b0b0b0;
+    cursor: pointer;
+    transition: color 0.2s, border-bottom 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-btn.active {
+    color: #0090ad;
+    border-bottom: 2px solid #0090ad;
+}
+
+.job-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+}
+
+.job-card {
+    background: #212526;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-card:hover {
+    background: #00677c;
+    transform: scale(1.02);
+}
+
+.job-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.job-desc {
+    font-size: 13px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 85%;
+}
+
+.select-btn {
+    background: #00677c;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.2s, transform 0.1s;
+}
+
+.select-btn:hover {
+    background: #008ba3;
+    transform: scale(1.05);
+}
+
+.select-btn:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cityhall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cityhallUI">
+        <h2>Cityhall</h2>
+        <div class="tabs">
+            <button class="tab-btn active" id="jobsTab" onclick="showTab('jobs')">Jobs</button>
+            <button class="tab-btn" id="lawyersTab" onclick="showTab('lawyers')">Lawyers</button>
+            <button class="tab-btn" id="policeTab" onclick="showTab('police')">Police</button>
+        </div>
+        <div class="job-container" id="jobList"></div>
+        <div class="job-container" id="lawyerList" style="display: none;"></div>
+        <div class="job-container" id="policeList" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
