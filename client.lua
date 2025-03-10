@@ -15,7 +15,6 @@ CreateThread(function()
     end
 end)
 
-
 CreateThread(function()
     while true do
         Wait(0)
